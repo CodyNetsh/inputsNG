@@ -1,0 +1,31 @@
+<table>
+  <td>
+<form   >
+    <fieldset>
+        
+  <div style="text-align:left">
+  <h2> Registration details</h2>
+  <label>First Name: </label>
+  <input type="text" #ptest (keyup)="0" value="{{FirstName}}">
+
+  <p></p>
+  <label>Last Name:  </label>
+  <input type="text" #ptest (keyup)="0" value="{{LastName}}">
+  <p></p>
+  <label>Contact: </label>
+  <input type="text" #ptest (keyup)="0"  value="{{Contact}}">
+  <p></p>
+  <label>ID Numbers: </label>
+  <input type="text" #ptest (keyup)="0" value="{{ID}}">
+  <p></p>
+  <label>Email address </label>
+  <input type="text" #ptest (keyup)="0" value="{{Email}}">
+       
+</div>
+
+<p></p>
+<button (click)="onRegister()" >Register</button>
+</fieldset>
+</form>
+</td>
+</table>
